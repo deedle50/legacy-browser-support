@@ -23,9 +23,9 @@ the navigation and reopen the url in Chrome.
 ```
 {
   "policies": {
-    "3rdparty" {
+    "3rdparty": {
       "Extensions": {
-        "legacy-browser-support@mozilla.org" {
+        "legacy-browser-support@mozilla.org": {
           "alternative_browser_path": "${ie}",
           "alternative_browser_arguments": "${url}",
           "firefox_path": "${firefox}",
